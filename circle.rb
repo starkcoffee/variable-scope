@@ -23,4 +23,14 @@ class Circle
   end
 end
 
+class Ellipse
 
+  def initialize(r1, r2)
+    @radius1 = r1
+    @radius2 = r2
+  end
+
+  def area
+    PI * @radius1 * @radius2
+  end
+end

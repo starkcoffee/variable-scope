@@ -1,4 +1,5 @@
 def foo(y)
+  x = 3
   x + y
 end
 

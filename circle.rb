@@ -1,6 +1,6 @@
+PI = 3.14
 
 class Circle
-  PI = 3.14
   @@num_circles = 0
 
   def initialize(r)

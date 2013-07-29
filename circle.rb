@@ -34,3 +34,10 @@ class Ellipse
     PI * @radius1 * @radius2
   end
 end
+
+class WackyCircle < Circle
+
+  def max_square_metres
+    @radius * @radius
+  end
+end

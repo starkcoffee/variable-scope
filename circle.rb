@@ -1,10 +1,12 @@
 
 class Circle
   PI = 3.14
+  @@num_circles = 0
 
   def initialize(r)
     @radius = r
     @area_calculated = false
+    @@num_circles+=1
   end
 
   def area

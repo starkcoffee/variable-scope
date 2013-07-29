@@ -2,8 +2,9 @@
 class Circle
   PI = 3.14
 
+  @radius = 1
+
   def initialize(r)
-    @radius = r
   end
 
   def area

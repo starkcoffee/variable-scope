@@ -4,6 +4,7 @@ class Circle
 
   def initialize(r)
     @radius = r
+    @area_calculated = false
   end
 
   def area
